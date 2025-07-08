@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "Inter", sans-serif;
+}
+body{
+     font-family: "Inter", sans-serif;
+}
+ul,li,p,button,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+ul li{list-style: none;}
+a{
+    text-decoration: none;
+}
+button,span,strong,b,label{display: inline-block;}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Syne", sans-serif;
+}
+@mixin dflex(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin fl($jc){
+    display: flex;
+    align-items: center;
+    justify-content: $jc;
+}
+@mixin img($h,$mw,$o){
+    width: 100%;
+    height:$h;
+    max-width: $mw;
+    object-fit: $o;
+}
+@mixin ts(){
+    transition: all .3s ease-in,all .3s ease-out;
+    -o-transition: all .3s ease-in,all .3s ease-out;
+    -webkit-transition: all .3s ease-in,all .3s ease-out;
+    -moz-transition: all .3s ease-in,all .3s ease-out;
+}
+.container{
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0;
+}
+//colors
+$blue:#161c28;
+$wt:#fff;
+$green:#bff747;
+$blk:#000;
+//fonts
+
+$inter:"Inter", sans-serif;
+$syne:"Syne", sans-serif;
+
+.bg-blue{
+    background-color: $blue;
+}
+.main-btn {
+  background-color: $green;
+  border: 2px solid $blk;
+  border-radius: 30px;
+  box-shadow: $wt 1px 4px 0 0;
+  color: $blk;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.main-btn:active {
+  box-shadow: $wt 1px 3px 0 0;
+  transform: translate(2px, 2px);
+}
+.main-banner{
+    padding: 158px 0 90px 0;
+    #lottie-animation{
+        right: -50%;
+    }
+}
+.aim-blk{
+    .bridge-item{
+        .icon{
+            width:72px;
+        }
+        .cnt{
+            width: calc(100% - 72px);
+        }
+    }
+}
+
+
+

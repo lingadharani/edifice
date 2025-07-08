@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+ul, li, p, button, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, span, strong, b, label {
+  display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Syne", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.bg-blue {
+  background-color: #161c28;
+}
+
+.main-btn {
+  background-color: #bff747;
+  border: 2px solid #000;
+  border-radius: 30px;
+  box-shadow: #fff 1px 4px 0 0;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.main-btn:active {
+  box-shadow: #fff 1px 3px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.main-banner {
+  padding: 158px 0 90px 0;
+}
+.main-banner #lottie-animation {
+  right: -50%;
+}
+
+.aim-blk .bridge-item .icon {
+  width: 72px;
+}
+.aim-blk .bridge-item .cnt {
+  width: calc(100% - 72px);
+}/*# sourceMappingURL=style.css.map */
